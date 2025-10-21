@@ -4,19 +4,18 @@
   <meta charset="UTF-8">
   <title>Open Multiple Links</title>
 </head>
-<body>
-  <h1> Click The Button </h1>
-  <button onclick="openLinks()">Open All Links</button>
+<body style="margin:0; padding:0; display:flex; justify-content:center; align-items:center; height:100vh; flex-direction:column; text-align:center;">
+  <h1>Click The Button</h1>
+  <button onclick="openLinks()" style="padding:10px 20px; font-size:18px; cursor:pointer;">Open All Links</button>
 
   <script>
     function openLinks() {
       const links = [
-         
-      "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=18",
-      "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=19",
-      "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=20",
-      "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=21",
-      "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=22",
+        "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=18",
+        "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=19",
+        "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=20",
+        "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=21",
+        "https://aiskillshouse.com/student/qr-mediator?uid=2342&promptId=22",
       ];
 
       links.forEach(url => {
@@ -25,4 +24,5 @@
     }
   </script>
 </body>
+
 </html>
